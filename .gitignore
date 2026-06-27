@@ -1,0 +1,92 @@
+# ─────────────────────────────────────────────────
+# Python / Backend
+# ─────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+.env
+.env.*
+!.env.example
+
+# Build artifacts
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing / Linting
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage/
+htmlcov/
+tests/__pycache__/
+
+# ─────────────────────────────────────────────────
+# Node.js / Frontend
+# ─────────────────────────────────────────────────
+node_modules/
+.next/
+dist/
+out/
+*.tsbuildinfo
+*.local
+
+# ─────────────────────────────────────────────────
+# Large files / Data / Models (NEVER upload these)
+# ─────────────────────────────────────────────────
+*.gguf
+*.gguf.*
+*.bin
+*.onnx
+*.pt
+*.pth
+*.safetensors
+
+# Uploaded documents & generated data
+*.pdf
+*.docx
+*.doc
+backend/data/
+!backend/data/.gitkeep
+
+# Old reference files
+index.html
+
+# ─────────────────────────────────────────────────
+# OS / Editor
+# ─────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-*
+
+# ─────────────────────────────────────────────────
+# Logs
+# ─────────────────────────────────────────────────
+*.log
+logs/
+log/
